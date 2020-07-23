@@ -9,11 +9,11 @@ import fileinput
 fileNamesF = []
 
 #Path of skeleton files && Path of the new skeleton.csv files
-original_skeleton_location = 'C:\\Users\\Apostolos\\Documents\\Programming Folders\\Ptixiaki\\skeletons\\nturgbS01-17-skeletons'
-base_directory = 'C:\\Users\\Apostolos\\Documents\\Programming Folders\\Ptixiaki\\skeletons\\csvSkeletons'
+original_skeleton_location = #path 
+base_directory = #path 
 
 #Check and create path for the new csv files 
-if  not os.path.exists('C:\\Users\\Apostolos\\Documents\\Programming Folders\\Ptixiaki\\skeletons\\csvSkeletons'):
+if  not os.path.exists(#path):
     os.mkdir(base_directory)
 
 #Check and create path for healthAction files
